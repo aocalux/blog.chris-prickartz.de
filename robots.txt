@@ -1,0 +1,9 @@
+# This robots.txt file controls crawling of URLs under https://blog.chris-prickartz.de.
+User-agent: *
+Disallow: /go/
+Disallow: /404.html
+Disallow: /impressum/
+Disallow: /README.md
+Disallow: /edit/
+Disallow: /admin/
+Disallow: /testpage.html

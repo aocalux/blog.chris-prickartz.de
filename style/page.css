@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica;
+    background-color: #141414;
+    color: #EAEAEA;
+    font-size: larger;
+}
+
+a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    color: lightgray;
+    font-size: x-small;
+}
+
+.bar a {color: lightgray;}
+.date {font-size: large;}
+.first_paragraph {font-style: italic;}

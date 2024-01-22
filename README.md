@@ -1,2 +1,2 @@
 # blog.chris-prickartz.de
-Mein persönlicher Blog, für alles, was mir so durch den Kopf geht und alles, was ich so erlebe.
+Mein persönlicher Blog, eine Plattform, auf der ich meine Gedanken und Erlebnisse teile. Er ist bewusst einfach gestaltet, ausschließlich mithilfe von HTML und CSS. Die Struktur ist dabei an das "alte Internet" angelehnt, um eine nostalgische Atmosphäre zu schaffen.

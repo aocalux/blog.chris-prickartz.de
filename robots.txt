@@ -2,7 +2,6 @@
 User-agent: *
 Disallow: /go/
 Disallow: /404.html
-Disallow: /impressum/
 Disallow: /README.md
 Disallow: /edit/
 Disallow: /admin/

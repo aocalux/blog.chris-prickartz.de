@@ -19,6 +19,12 @@ a:hover {
     font-size: x-small;
 }
 
+.back a { 
+    font-size: small;
+    color: lightcyan;
+    font-style: italic;
+}
+
 .bar a {color: lightgray;}
 .date {font-size: large;}
 .first_paragraph {font-style: italic;}

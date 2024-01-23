@@ -7,6 +7,12 @@ body {
     margin-right: 1%;
 }
 
+.edit {
+    color: gray;
+    font-size: x-small;
+    font-style: italic;  
+}
+
 a {
     color: darkcyan;
     text-decoration: none;

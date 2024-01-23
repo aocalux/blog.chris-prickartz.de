@@ -6,6 +6,5 @@ Disallow: /README.md
 Disallow: /edit/
 Disallow: /admin/
 Disallow: /testpage.html
-Disallow: /_blog/entrys/year=2024/month=february/posts/beispiel_eintrag.html
-Disallow: /_blog/entrys/year=2024/month=january/posts/beispiel_eintrag.html
+Disallow: /blog/entrys/year=2024/month=january/post/beispiel_eintrag.html
 Disallow: /sample_entry/

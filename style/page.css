@@ -1,8 +1,10 @@
 body {
     font-family: Helvetica;
     background-color: #141414;
-    color: #EAEAEA;
+    color: #D3D3D3;
     font-size: larger;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 a {
@@ -28,3 +30,10 @@ a:hover {
 .bar a {color: lightgray;}
 .date {font-size: large;}
 .first_paragraph {font-style: italic;}
+
+h1 { color: #D3D3D3; }
+h2 { color: #D3D3D3; }
+h3 { color: #D3D3D3; }
+h4 { color: #D3D3D3; }
+h5 { color: #D3D3D3; }
+h6 { color: #D3D3D3; }

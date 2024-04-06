@@ -33,6 +33,8 @@ a:hover {
     font-style: italic;
 }
 
+.content a { color: lightblue; }
+
 .bar a {color: lightgray;}
 .date {font-size: large;}
 .first_paragraph {font-style: italic;}

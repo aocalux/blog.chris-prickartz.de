@@ -1,3 +1,6 @@
 .err {
     font-size: 150%;
+    max-width: var(--mw);
+    margin-left: auto;
+    margin-right: auto;
 }

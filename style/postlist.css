@@ -6,3 +6,113 @@
 .postlist a {
     color: darkviolet;
 }
+
+:root {
+    --mw: 900px;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: #141414;
+    color: #D3D3D3;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.entry-list {
+    max-width: var(--mw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edit {
+    color: gray;
+    font-size: x-small;
+    font-style: italic;
+}
+
+a {
+    color: darkorchid;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    color: lightgray;
+    font-size: 0.7em;
+}
+
+.back a {
+    font-size: 0.75em;
+    color: lightcyan;
+    font-style: italic;
+}
+
+.back {
+    max-width: var(--mw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail {
+    max-width: var(--mw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    max-width: var(--mw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content a {
+    color: lightblue;
+}
+
+.bar a {
+    color: lightgray;
+}
+
+.bar {
+    margin-top: 20px;
+    max-width: var(--mw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date {
+    font-size: large;
+}
+
+.first_paragraph {
+    font-style: italic;
+}
+
+h1 {
+    color: #D3D3D3;
+}
+
+h2 {
+    color: #D3D3D3;
+}
+
+h3 {
+    color: #D3D3D3;
+}
+
+h4 {
+    color: #D3D3D3;
+}
+
+h5 {
+    color: #D3D3D3;
+}
+
+h6 {
+    color: #D3D3D3;
+}

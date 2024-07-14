@@ -1,5 +1,5 @@
 :root {
-    --mw: 650px;
+    --mw: 700px;
 }
 
 body {
@@ -9,6 +9,11 @@ body {
     font-size: large;
     margin-left: 10px;
     margin-right: 10px;
+    hyphens: auto;
+}
+
+p {
+    hyphens: auto;
 }
 
 .entry-list {

@@ -8,7 +8,7 @@
 }
 
 :root {
-    --mw: 900px;
+    --mw: 950px;
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     background-color: #141414;
     color: #D3D3D3;
     font-size: large;
+    hyphens: auto;
     margin-left: 10px;
     margin-right: 10px;
 }

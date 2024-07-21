@@ -6,10 +6,11 @@ body {
     font-family: Helvetica;
     background-color: #141414;
     color: #d3d3d3fc;
-    font-size: large;
+    font-size: larger;
     margin-left: 10px;
     margin-right: 10px;
     hyphens: auto;
+    line-height: 140%;
 }
 
 p {
@@ -20,6 +21,12 @@ p {
     max-width: var(--mw);
     margin-left: auto;
     margin-right: auto;
+}
+
+.trenner {
+    border-color: #1414149e;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .edit {

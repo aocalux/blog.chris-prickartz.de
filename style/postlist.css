@@ -4,7 +4,7 @@
 }
 
 .postlist a {
-    color: darkviolet;
+    color: #0061E0;
 }
 
 :root {
@@ -13,8 +13,8 @@
 
 body {
     font-family: Helvetica;
-    background-color: #141414;
-    color: #D3D3D3;
+    background-color: #F4ECD8;
+    color: #5B4636;
     font-size: large;
     hyphens: auto;
     margin-left: 10px;
@@ -28,13 +28,13 @@ body {
 }
 
 .edit {
-    color: gray;
+    color: #D3D3D3;;
     font-size: x-small;
     font-style: italic;
 }
 
 a {
-    color: darkorchid;
+    color: #0061E0;
     text-decoration: none;
 }
 
@@ -43,13 +43,13 @@ a:hover {
 }
 
 .bar {
-    color: lightgray;
+    color: #D3D3D3;;
     font-size: 0.7em;
 }
 
 .back a {
     font-size: 0.75em;
-    color: lightcyan;
+    color: #D3D3D3;;
     font-style: italic;
 }
 
@@ -72,11 +72,11 @@ a:hover {
 }
 
 .content a {
-    color: lightblue;
+    color: #0061E0;
 }
 
 .bar a {
-    color: lightgray;
+    color: #5B4636;;
 }
 
 .bar {
@@ -95,25 +95,25 @@ a:hover {
 }
 
 h1 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h2 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h3 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h4 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h5 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h6 {
-    color: #D3D3D3;
+    color: #5B4636;
 }

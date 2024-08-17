@@ -4,8 +4,8 @@
 
 body {
     font-family: Helvetica;
-    background-color: #141414;
-    color: #d3d3d3fc;
+    background-color: #F4ECD8;
+    color: #5B4636;
     font-size: larger;
     margin-left: 10px;
     margin-right: 10px;
@@ -36,7 +36,7 @@ p {
 }
 
 a {
-    color: darkorchid;
+    color: #0061E0;
     text-decoration: none;
 }
 
@@ -45,14 +45,19 @@ a:hover {
 }
 
 .bar {
-    color: lightgray;
+    color: #5B4636;
     font-size: 0.7em;
 }
 
 .back a {
     font-size: 0.75em;
-    color: lightcyan;
+    color: #5B4636;
+    text-decoration: underline;
     font-style: italic;
+}
+
+.back a:hover {
+    color: #5B4636;
 }
 
 .back {
@@ -74,11 +79,11 @@ a:hover {
 }
 
 .content a {
-    color: lightblue;
+    color: #0061E0;
 }
 
 .bar a {
-    color: lightgray;
+    color: #3d2f24;
 }
 
 .bar {
@@ -97,25 +102,25 @@ a:hover {
 }
 
 h1 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h2 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h3 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h4 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h5 {
-    color: #D3D3D3;
+    color: #5B4636;
 }
 
 h6 {
-    color: #D3D3D3;
+    color: #5B4636;
 }

@@ -8,3 +8,4 @@ Disallow: /admin/
 Disallow: /testpage.html
 Disallow: /blog/entrys/year=2024/month=january/post/beispiel_eintrag.html
 Disallow: /sample_entry/
+Disallow: /blogmail/

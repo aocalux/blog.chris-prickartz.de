@@ -1,12 +1,12 @@
 :root {
-    --mw: 700px;
+    --mw: 750px;
 }
 
 body {
-    font-family: Helvetica;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #F4ECD8;
     color: #5B4636;
-    font-size: larger;
+    font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
     hyphens: auto;

@@ -57,7 +57,7 @@ a:hover {
 }
 
 .back a:hover {
-    color: #5B4636;
+    color: #382b21;
 }
 
 .back {
@@ -123,4 +123,67 @@ h5 {
 
 h6 {
     color: #5B4636;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #141414;
+        color: #d3d3d3fc;
+    }
+
+    .trenner {
+        border-color: #5a5a5ac7;
+    }
+
+    .edit {
+        color: gray;
+    }
+
+    a {
+        color: darkorchid;
+    }
+
+    .bar {
+        color: lightgray;
+    }
+
+    .back a {
+        color: lightcyan;
+    }
+
+    .back a:hover {
+        color: rgb(174, 192, 192);
+    }
+
+    .content a {
+        color: lightblue;
+    }
+
+    .bar a {
+        color: lightgray;
+    }
+
+    h1 {
+        color: #D3D3D3;
+    }
+
+    h2 {
+        color: #D3D3D3;
+    }
+
+    h3 {
+        color: #D3D3D3;
+    }
+
+    h4 {
+        color: #D3D3D3;
+    }
+
+    h5 {
+        color: #D3D3D3;
+    }
+
+    h6 {
+        color: #D3D3D3;
+    }
 }

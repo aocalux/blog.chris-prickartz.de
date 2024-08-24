@@ -32,7 +32,8 @@ body {
 }
 
 .edit {
-    color: #D3D3D3;;
+    color: #D3D3D3;
+    ;
     font-size: x-small;
     font-style: italic;
 }
@@ -47,13 +48,15 @@ a:hover {
 }
 
 .bar {
-    color: #D3D3D3;;
+    color: #D3D3D3;
+    ;
     font-size: 0.7em;
 }
 
 .back a {
     font-size: 0.75em;
-    color: #D3D3D3;;
+    color: #D3D3D3;
+    ;
     font-style: italic;
 }
 
@@ -80,7 +83,8 @@ a:hover {
 }
 
 .bar a {
-    color: #5B4636;;
+    color: #5B4636;
+    ;
 }
 
 .bar {
@@ -120,4 +124,63 @@ h5 {
 
 h6 {
     color: #5B4636;
+}
+
+@media (prefers-color-scheme: dark) {
+    .postlist a {
+        color: darkviolet;
+    }
+
+    body {
+        background-color: #141414;
+        color: #D3D3D3;
+    }
+
+    .edit {
+        color: gray;
+    }
+
+    a {
+        color: darkorchid;
+    }
+
+    .bar {
+        color: lightgray;
+    }
+
+    .back a {
+        color: lightcyan;
+    }
+
+    .content a {
+        color: lightblue;
+    }
+
+    .bar a {
+        color: lightgray;
+    }
+
+    h1 {
+        color: #D3D3D3;
+    }
+
+    h2 {
+        color: #D3D3D3;
+    }
+
+    h3 {
+        color: #D3D3D3;
+    }
+
+    h4 {
+        color: #D3D3D3;
+    }
+
+    h5 {
+        color: #D3D3D3;
+    }
+
+    h6 {
+        color: #D3D3D3;
+    }
 }

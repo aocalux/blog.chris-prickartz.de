@@ -126,7 +126,27 @@ h6 {
     color: #5B4636;
 }
 
+::-moz-selection {
+    /* Code for Firefox */
+    background: #c0aada;
+}
+
+::selection {
+    background: #c0aada;
+}
+
 @media (prefers-color-scheme: dark) {
+    ::-moz-selection {
+        /* Code for Firefox */
+        background: #c0aada;
+        color: black;
+    }
+    
+    ::selection {
+        background: #c0aada;
+        color: black;
+    }
+    
     .postlist a {
         color: darkviolet;
     }

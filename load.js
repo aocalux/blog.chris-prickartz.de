@@ -1,3 +1,5 @@
-for (let i = 0; i < 10000; i++) {} 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
-window.location.href = "/blog";
+sleep(600).then(() => { window.location.href = "/blog"; });

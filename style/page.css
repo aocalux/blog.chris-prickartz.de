@@ -46,7 +46,9 @@ a:hover {
 
 .bar {
     color: #5B4636;
+    text-align: center;
     font-size: 0.7em;
+    hyphens: none;
 }
 
 .back a {

@@ -1,5 +1,6 @@
 :root {
     --mw: 650px;
+    --mwb: 900px;
 }
 
 body {
@@ -11,6 +12,19 @@ body {
     margin-right: 10px;
     hyphens: auto;
     line-height: 140%;
+}
+
+.logo {
+    max-width: var(--mwb);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.2em;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    line-height: 38px;
+    hyphens: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -44,6 +58,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.back a {
+    font-size: 0.80em;
+    color: #5B4636;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: left;
+}
+
 .bar {
     color: #5B4636;
     text-align: center;
@@ -51,21 +73,18 @@ a:hover {
     hyphens: none;
 }
 
-.back a {
-    font-size: 0.75em;
-    color: #5B4636;
-    text-decoration: underline;
-    font-style: italic;
-}
-
 .back a:hover {
     color: #382b21;
 }
 
 .back {
-    max-width: var(--mw);
+    max-width: var(--mwb);
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    hyphens: none;
+    margin-bottom: 0px;
+    margin-top: 8px;
 }
 
 .mail {
@@ -89,10 +108,14 @@ a:hover {
 }
 
 .bar {
-    margin-top: 20px;
-    max-width: var(--mw);
+    margin-top: 5px;
+    max-width: var(--mwb);
     margin-left: auto;
     margin-right: auto;
+}
+
+.bar hr {
+    border-color: #F4ECD8;
 }
 
 .date {
@@ -137,6 +160,10 @@ h6 {
 }
 
 @media (prefers-color-scheme: dark) {
+    .bar hr {
+        border-color: #141414;
+    }
+
     body {
         background-color: #141414;
         color: #d3d3d3fc;

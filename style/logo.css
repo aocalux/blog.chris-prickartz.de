@@ -1,0 +1,8 @@
+@font-face {
+    font-family: blackopsone-regular;
+    src: url("/style/fonts/BlackOpsOne-Regular.ttf");
+}
+
+.logo {
+    font-family: blackopsone-regular;
+}
